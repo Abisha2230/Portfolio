@@ -354,3 +354,77 @@ footer p:nth-child(2){
    font-size: 15px;
    bottom: 35px;
 }
+@media only screen and (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px */
+  .hero {
+    height: auto;
+  }
+
+  nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .content {
+    left: 5%;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-text,
+  .tittle h2,
+  .box {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  footer {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens with a maximum width of 480px */
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav ul li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .content {
+    left: 3%;
+  }
+
+  .main img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-text,
+  .box {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
